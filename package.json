@@ -1,0 +1,50 @@
+{
+  "name": "sapienteearum",
+  "version": "1.0.0",
+  "description": "serialize objects to javascript",
+  "main": "lib",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "dependencies": {
+    "js-beautify": "~1.6.8",
+    "safer-eval": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-standard": "^7.0.0-beta.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GisselleLuettgen/sapienteearum.git"
+  },
+  "keywords": [
+    "molestias",
+    "sit",
+    "exercitationem"
+  ],
+  "author": "MarcellaConnelly",
+  "maintainers": "commenthol <commenthol@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GisselleLuettgen/sapienteearum.git/issues"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "plugins": [
+      "standard"
+    ],
+    "rules": {
+      "key-spacing": 0
+    }
+  }
+}
